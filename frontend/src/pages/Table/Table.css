@@ -1,0 +1,129 @@
+
+.css-wsew38{
+    justify-content: flex-start !important;
+    gap: 0 !important;
+    padding: 0 2px !important;
+}
+.css-1v8abvc-MuiInputBase-root-MuiOutlinedInput-root{
+    flex-direction: row-reverse !important;
+}
+.css-1laqsz7-MuiInputAdornment-root{
+    display: none !important;
+}
+.css-12yjm75-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #B2B7BF !important;
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19.28px !important;
+}
+.css-1atu56z-MuiPaper-root{
+    max-width: 1077px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none !important;
+}
+.css-1v8abvc-MuiInputBase-root-MuiOutlinedInput-root{
+    height: 52px;
+}
+.css-1v8abvc-MuiInputBase-root-MuiOutlinedInput-root svg{
+    color: #fff !important;
+}
+    .css-i4bv87-MuiSvgIcon-root{
+    font-size: 30px !important;
+}
+.css-12yjm75-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 8px 12px !important;
+}
+.css-nhjqqh-MuiTableContainer-root{
+    margin-top: 12px !important;
+}
+.css-r58cto-MuiTableRow-root{
+    background-color: #5A5C66 !important;
+}
+thead .MuiTableCell-sizeMedium {
+    color: #fff !important;
+    font-family: 'Roboto' !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    padding: 15px 25px !important;
+}
+
+.css-1p8dotb-MuiButtonBase-root-MuiIconButton-root{
+    display: none !important;
+}
+.css-exd1zr{
+    display: none !important;
+}
+.MuiButtonBase-root.MuiTableSortLabel-root.Mui-active{
+    /* opacity: 0 !important; */
+    background: url('../../assets/images/arrow-down.png') no-repeat center;
+}
+.MuiButtonBase-root.MuiTableSortLabel-root.Mui-active{
+    margin-left:33px;
+}
+.MuiButtonBase-root.MuiTableSortLabel-root.Mui-active.css-1j43wpm-MuiButtonBase-root-MuiTableSortLabel-root{
+    transform: rotate(180deg);
+}
+.MuiButtonBase-root.MuiTableSortLabel-root.Mui-active svg{
+    opacity: 0 !important;
+}
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium{
+    border-bottom: 1px solid #E3E6EC;
+    border-left: 1px solid #E3E6EC;
+}
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-e8eapt-MuiTableCell-root{
+    border-right: 1px solid #E3E6EC;
+}
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1b30exb-MuiTableCell-root{
+    text-align: center;
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-child(1){
+    display: none !important;
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-child(2) button svg{
+    display: none !important;
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-child(2) button::before{
+    content: 'Назад';
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-last-child(1){
+    display: none !important;
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-last-child(2) button svg{
+    display: none !important;
+}
+.MuiPagination-ul.css-wjh20t-MuiPagination-ul li:nth-last-child(2) button::before{
+    content: 'Далее';
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-page.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: italic;
+    min-width: 10px;
+}
+.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.Mui-selected.MuiPaginationItem-page.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
+    color: #7EBC3C;
+    background-color: transparent !important;
+}
+.MuiBox-root.css-qpxlqp, 
+.MuiTablePagination-root.MuiBox-root.css-8k4lth, 
+.css-1oj2twp-MuiPagination-root,
+.css-wjh20t-MuiPagination-ul{
+    width: 100%;
+}
+.css-wjh20t-MuiPagination-ul li:nth-child(2){
+    margin-right: auto;
+}
+.css-wjh20t-MuiPagination-ul li:nth-last-child(2){
+    margin-left: auto;
+}

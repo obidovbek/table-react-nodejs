@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom'
 import Layout from './pages/Layout/Layout';
 import NotFoundPage from './pages/NotFoundPage';
 import Table from './pages/Table/Table';
+import './App.css';
 
 function App() {
   return (

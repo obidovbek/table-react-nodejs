@@ -4,7 +4,8 @@
 api/env
 api/node_modules
 frontend/node_modules
-/.pnp
+frontend/build
+/.pn
 .pnp.js
 
 # testing

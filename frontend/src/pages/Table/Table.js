@@ -3,6 +3,7 @@ import {
   MaterialReactTable,
   useMaterialReactTable,
 } from 'material-react-table';
+import './Table.css';
 
 const Table = () => {
   //data and fetching state
@@ -34,6 +35,7 @@ const Table = () => {
         '/posts',
         'https://ejadval.uz'
       );
+      url.protocol = 'https:';
       url.searchParams.set(
         'start',
         `${pagination.pageIndex * pagination.pageSize}`,
@@ -72,14 +74,16 @@ const Table = () => {
       {
         accessorKey: 'id',
         header: 'ID',
+        maxSize: 30,
+        size: 20
       },
       {
         accessorKey: 'title',
-        header: 'Описание',
+        header: 'Заголовок',
       },
       {
         accessorKey: 'body',
-        header: 'Заголовок',
+        header: 'Описание',
       },
     ],
     [],
@@ -88,12 +92,20 @@ const Table = () => {
   const table = useMaterialReactTable({
     columns,
     data,
-    enableRowSelection: false,
     getRowId: (row) => row.phoneNumber,
-    initialState: { showColumnFilters: false },
+    initialState: { 
+      showColumnFilters: false, 
+      showGlobalFilter: true, 
+    },
+    paginationDisplayMode: 'pages',
     manualFiltering: true,
     manualPagination: true,
     manualSorting: true,
+    enableFullScreenToggle: false,
+    enableResizing:true,
+    enableDensityToggle: false,
+    enableHiding:false,
+    enableFilters:false,
     muiToolbarAlertBannerProps: isError
       ? {
           color: 'error',
@@ -105,6 +117,11 @@ const Table = () => {
     onPaginationChange: setPagination,
     onSortingChange: setSorting,
     rowCount,
+    muiSearchTextFieldProps: {
+      placeholder: 'Поиск',
+      sx: { minWidth: '631px', background: '#5A5C66', color: '#B2B7BF' },
+      variant: 'outlined',
+    },
     state: {
       columnFilters,
       globalFilter,
